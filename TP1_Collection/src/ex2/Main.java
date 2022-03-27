@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Tache> al = new ArrayList();
+		ArrayList<Tache> al = new ArrayList<>();
 		
 		Tache t1 = new TacheElementaire("tache1",1);
 		Tache t2 = new TacheElementaire("tache2",2);

@@ -6,7 +6,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Etudiant et1 = new Etudiant("1","Nadou");
+		Etudiant et1 = new Etudiant("1","Nada");
 		Etudiant et2 = new Etudiant("2","Mouhamed");
 		Etudiant et3 = new Etudiant("3","Mouhib");
 		
@@ -42,12 +42,12 @@ public class Main {
 		
 		CompareNom compareNom = new CompareNom();
 		CompareMoy compareMoy = new CompareMoy();
-		System.out.println("\n");
+		
 		
 		System.out.println("compare name of "+et1.getNom()+" et "+et2.getNom()+" : "+compareNom.compare(et1, et2));
 		System.out.println("compare name of "+et2.getNom()+" et "+et3.getNom()+" : "+compareMoy.compare(et2, et3));
 		
-		ArrayList<Etudiant> list = new ArrayList();
+		ArrayList<Etudiant> list = new ArrayList<>();
 		list.add(et1);
 		list.add(et2);
 		list.add(et3);

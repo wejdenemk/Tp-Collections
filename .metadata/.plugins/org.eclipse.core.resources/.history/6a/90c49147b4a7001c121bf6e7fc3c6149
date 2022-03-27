@@ -1,8 +1,0 @@
-package ex2;
-
-public interface Tache {
-	
-	abstract double geNom();
-	abstract double getCout();
-
-}

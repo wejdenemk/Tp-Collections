@@ -6,7 +6,7 @@ public class TacheComplexe implements Tache {
 	
 	private String nom;
 	private int cout;
-	ArrayList<Tache> list = new ArrayList();
+	ArrayList<Tache> list = new ArrayList<>();
 
 	public TacheComplexe(ArrayList<Tache> list, String nom, int cout) {
 		super();
