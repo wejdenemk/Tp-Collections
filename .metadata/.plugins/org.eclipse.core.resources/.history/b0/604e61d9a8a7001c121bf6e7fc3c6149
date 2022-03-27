@@ -1,0 +1,45 @@
+package ex1;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Etudiant et1 = new Etudiant("mat1","Nadou");
+		Etudiant et2 = new Etudiant("mat3","Mouhamed");
+		Etudiant et3 = new Etudiant("mat4","Mouhib");
+		
+		Note N1 = new Note("math",8);
+		Note N2 = new Note("math",12);
+		Note N3 = new Note("math",19);
+		et1.addNote(N1);
+		et1.addNote(N2);
+		et1.addNote(N3);
+		
+		Note N4= new Note("math",10);
+		Note N5= new Note("math",3);
+		Note N6= new Note("math",14);
+		et2.addNote(N4);
+		et2.addNote(N5);
+		et2.addNote(N6);
+		
+		Note N7 = new Note("math",18);
+		Note N8 = new Note("math",12);
+		Note N9= new Note("math",14);
+		et3.addNote(N7);
+		et3.addNote(N8);
+		et3.addNote(N9);
+		
+		System.out.print("Avg d'etudiant "+et1.getNom()+": "+et1.getAVG()+"  " );
+		System.out.print(et2.getAVG()+"  " );
+		System.out.print(et3.getAVG()+"  " );
+		
+		System.out.print(et3.getMIN()+"  " );
+		System.out.print(et1.getMAX()+"  " );
+		
+		System.out.print(et1.compareTo(et2));
+		
+		
+	}
+
+}
+

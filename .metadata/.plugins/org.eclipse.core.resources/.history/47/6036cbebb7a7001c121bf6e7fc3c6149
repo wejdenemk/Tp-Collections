@@ -1,0 +1,17 @@
+package ex2;
+
+public class TacheElementaire implements Tache {
+
+	@Override
+	public String getNom() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getCout() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

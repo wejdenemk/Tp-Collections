@@ -1,0 +1,14 @@
+package ex2;
+
+public class TacheElementaire extends Tache {
+
+	public TacheElementaire(String nom, int cout) {
+		super(nom, cout);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	
+	
+
+}

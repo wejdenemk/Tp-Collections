@@ -1,0 +1,8 @@
+package ex2;
+
+public interface Tache {
+	
+	abstract String getNom();
+	abstract double getCout();
+
+}

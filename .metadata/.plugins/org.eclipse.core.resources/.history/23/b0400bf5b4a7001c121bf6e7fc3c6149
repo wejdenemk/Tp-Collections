@@ -1,0 +1,18 @@
+package ex2;
+
+public class TacheComplexe implements Tache {
+
+	@Override
+	public String getNom() {
+		return nom;
+	}
+
+	@Override
+	public double getCout() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+}

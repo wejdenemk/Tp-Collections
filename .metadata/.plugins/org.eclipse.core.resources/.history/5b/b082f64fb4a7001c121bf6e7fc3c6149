@@ -1,0 +1,19 @@
+package ex2;
+
+public class TacheElementaire implements Tache {
+
+	@Override
+	public double geNom() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double getCout() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+}
